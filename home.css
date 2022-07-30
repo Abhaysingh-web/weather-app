@@ -1,0 +1,92 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin:0;
+background: #222;
+background-image: url('https://source.unsplash.com/1900x1000/?landscape');
+font-family: 'Alata', sans-serif;
+
+
+
+}
+
+.card{
+    background: #eaeaea;
+    padding:2em;
+    border-radius: 2em;
+    width:100%;
+    max-width:420px;
+    margin:1em;
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+    
+}
+button{
+    margin:0.5em;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border:none;
+    outline:none;
+    background: #7c7c7c2b;
+    color:white;
+    cursor:pointer;
+    transition: 0.2sec ease-in-out;
+
+}
+button:hover{
+    background:#7c7c7c;
+}
+h1{
+    margin:0;
+}
+
+#search-bar{
+    
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+
+}
+
+
+
+#city{
+    font-size:  20px;
+    font-style: inherit;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+#temp{
+    font-size : 35px;
+
+
+
+}
+
+
+#icon{
+    width: 75px;
+    height: 75px;
+}
+#discription{
+    font-size:25px;
+    padding:5px 0 5px 0;
+    
+}
+#humidity{
+  padding:5px 0 5px 0;
+
+}
+#wind{
+    padding:5px 0 5px 0;
+}
+

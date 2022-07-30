@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" id="search-bar" name="search" placeholder="Enter city" />
+        <button id="btn">
+          <i class="fa-solid fa-magnifying-glass" id="search-box"></i>
+        </button>
+      </div>
+      <div class="weather loading">
+        <h1>Weather Forecast</h1>
+        <div id="city">City Name</div>
+        <div id="temp">Temprature</div>
+        <div id="min-max"></div>
+        <div class="weather"><img id="icon" src="https://openweathermap.org/img/wn/04n.png" alt="" />
+            <div id="discription">Weather-condition</div>
+        </div>
+     
+        <div id="humidity">Humidity </div>
+        <div id="wind">Wind-speed</div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+      integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
